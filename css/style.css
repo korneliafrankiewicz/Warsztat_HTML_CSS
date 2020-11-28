@@ -3,6 +3,119 @@
 }
 
 :root {
-
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+    --color-blue: #08A6E4;
+    --color-gray: #A5A5A5;
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-shadow: rgba(7, 172, 230, .16);
 }
 
+body {
+    font-family: var(--font-open-sans);
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+  }
+
+
+.btn {
+        color: white;
+        font-weight: bold;
+        display: inline-block;
+        padding: 16px 65px;
+        border-radius: 35px;
+        border: none;
+        text-decoration: none;
+      }
+  
+
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+  }
+
+  a.logo {
+      color: var(--color-blue);
+      font-family: var(--font-raleway);
+      font-size: 2rem;
+      text-decoration: none;
+      font-weight: 300;
+  }
+
+
+  ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-gray);
+      text-transform: uppercase;
+      font-size: 15px;
+  }
+
+  .header__navigation__element {
+    padding: 0 26px;
+    
+  }
+  
+  .header__navigation__element:last-child {
+    padding-right: 0;
+  }
+
+  .navigation__link {
+    color: var(--color-grey);
+    font-weight: 700;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    border-bottom: 4px solid transparent;
+    letter-spacing: 0.1875rem;
+    text-decoration: none;
+  }
+  
+  .navigation__link:hover {
+    color: var(--color-black);
+    border-color: var(--color-blue);
+  }
+
+  /* Opening section */
+
+  .section__opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section__opening__content {
+    margin-top: 130px;
+    text-align: center;
+  }
+
+  .opening__header {
+      color: var(--color-black);
+      font-size: 57px;
+  }
+
+  .opening__article {
+      margin-top: 15px;
+      margin-bottom: 40px;
+  }
+
+  .btn__opening {
+      background-color: var(--color-blue);
+      box-shadow: 3px 10px 14px var(--color-shadow);
+      padding: 22px 160px;
+  }
+  
+  /* .opening__image {
+    width: 100%;
+    height: auto;
+  } */
