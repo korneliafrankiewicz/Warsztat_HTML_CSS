@@ -289,7 +289,87 @@ body {
     margin-top: 55px;
   }
   
+  /*PRICE-LIST*/
 
-  
+  .price__list {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .pricing__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
   
+  .pricing__box {
+    width: 370px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--color-redish);
+    margin: 15px
+  }
+  
+  .pricing__details {
+    margin-top: 34px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .pricing__type {
+    font-size: 1.25rem;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+  }
+  
+  .pricing__price {
+    font-size: 2.875rem;
+    font-family: var(--font-open-sans);
+    font-weight: 300;
+    margin-top: 25px;
+    color: var(--color-redish);
+  }
+  
+  .pricing__limited {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.75rem;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+  }
+  
+  .pricing__items {
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .pricing__item {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .pricing__box .btn {
+    position: relative;
+    bottom: -25px;
+    font-size: 0.8125rem;
+    background-color: var(--color-redish);
+  }
+
+
+  .pricing__box-professional {
+    border: 1px solid var(--color-blue);
+  }
+
+  .pricing__box-premium {
+    border: 1px solid var(--color-green);
+  }
+
+  .btn .btn__professional {
+      background-color: var(--color-blue);
+  }
